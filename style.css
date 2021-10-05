@@ -1,1 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&family=Rubik+Beastly&display=swap');
+@import url("https://use.typekit.net/zdt2qwj.css");
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: Moccasin;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    font-family: 'playfair-display, serif';
+}
+
+a {
+  color:black;
+  text-decoration:none;
+}
+
+a:hover {
+  color:red;
+  font-weight:bold;
+}
+
+h1, h2 {
+  margin-top: 4px;
+  font-family: 'playfair-display, serif';
+  font-weight:normal;
+}
+
+nav {
+  background-color: Gainsboro;
+  display:flex;
+  justify-content:space-evenly;
+}
+
+nav div {
+  padding:8px;
+}
+
+.imagegallery {
+  margin:0;
+  padding:0;
+  width:100%;
+  display:flex;
+  justify-content:space-between;
+}
+
+.imagegallery figure {
+  display:block;
+  margin:1;
+  width:50%;
+}
+
+.imagegallery img {
+  width:100%;
+  height:auto;
+  object-fit:cover;
+}
+
+
+
+header {
+  font-family: 'playfair-display, serif';
+  font-size:2em;
+  font-weight: 700;
+  padding-top:10vh;
+  color:white;
+  text-align:center;
+  height:25vh;
+  background-image:url(https://cdn.glitch.me/f12531d6-867b-4325-ba5e-0a85888d596e%2Foldmousejpeg.jpg.png?v=1633371493288);
+  background-size:cover;
+  background-position:center;
+}
+
+section {
+    background-color: Gainsboro;
+    padding: 20px;
+    margin: 20px auto;
+    color: rgb(22, 22, 66);
+    font-size: 1.1em;
+    max-width:800px;
+}
+
+footer {
+  background-color: Gainsboro;
+  height:30vh;
+  display:flex;
+  flex-direction:column;
+  text-align:center;
+  justify-content:center;
+}
+
+figcaption {
+    font-size: 0.7em;
+    font-style: italic;
+    opacity: 0.4;
+}
 
